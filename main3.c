@@ -78,7 +78,7 @@ int main() {
 	for (int i = 0; i < ones-twos; i++)
 	{
 		printf("%d ", *ptr);
-		ptr = ptr + 1;
+		ptr = ptr + 1; 
 	}
 
 
