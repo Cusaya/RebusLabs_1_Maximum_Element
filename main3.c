@@ -37,7 +37,7 @@ int main() {
 	if (sequence == NULL) {
 		printf("No space allocated.");
 	}
-	int* ptr = sequence;
+	int* ptr = sequence; 
 
 
 	for (int i = 0; i < n; i++) {
