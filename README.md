@@ -4,7 +4,7 @@
 
 ***0*** *Analiz & Genel
 
-1. Dizi boyutu runtime'da gireceğimiz N sayisina göre belirleneceğinden malloc fonksiyonu ile N'e bağlı dinamik alan tahsis et. 
+1. Dizi boyutu runtime'da gireceğimiz N sayisina göre belirleneceğinden malloc fonksiyonu ile N'e bağlı dinamik alan tahsis edilir. 
 2. Bir for döngüsü N adet dönsün. Her dönüşte 3 type'dan hangisini istediğimizi switch seçim yapısı ile kontrol etsin.
 3. case 1 için dinamik diziye pointer vasıtası ile eleman eklenir.
 4. case 2 de diziden eleman silmek için yalnızca pointer'ı bir geri kaydırırız.Böylece girilecek yeni değer eskinin üzerine           yazılır.
