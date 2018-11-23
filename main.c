@@ -18,20 +18,20 @@ int find_max(const int * pointer, const int counter) {
 int main() {
 
 	int n = 0;
-	char input_line[100];
+	char input_line[10000];
 
 	int scanned = 0;
-	char type_str[20];
+	char type_str[10000];
 	int type_int = 0;
-	char value_str[20];
+	char value_str[10000];
 	int value_int = 0;
 
 	int ones = 0;
 	int twos = 0;
 
-	printf("N giriniz:\n");
+//	printf("N giriniz:\n");
 	scanf("%d", &n); 
-	getchar();     //scanf buffer'ında kalan newline'ı almak için
+	getchar();     //scanf buffer'inda kalan newline'i almak icin
 
 
 	int* sequence = (int *)malloc((n * sizeof(int)));
