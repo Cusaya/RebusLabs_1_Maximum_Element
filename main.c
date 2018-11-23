@@ -7,7 +7,7 @@ int find_max(const int * pointer, const int counter) {
 
 	int max = *pointer;
 
-	for (int i = 1; i < counter; i++) //sifir indisli oge'yi zaten max'a atadık.
+	for (int i = 1; i < counter; i++) //sifir indisli oge'yi zaten max'a atadik.
 		if (*(pointer + i ) > max)
 			max = *(pointer + i);
 
@@ -68,4 +68,5 @@ int main() {
 
   }//for'un
 
+	return 0;
 }
